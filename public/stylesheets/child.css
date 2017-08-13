@@ -1,0 +1,8 @@
+
+p.textBubble {background-color:#28264a;border-radius:8px;padding:20px;font-style:italic;}
+
+.btn { background-color: #28264a;border-radius: 6px;}
+
+.btn:hover { background-color: #3e39b0; color:#fff;}
+
+#about p {font-size:18px;}

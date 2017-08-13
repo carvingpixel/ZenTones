@@ -1,0 +1,23 @@
+// db zentones
+// collection registration
+// give it some default data to start with
+// data is setup like json object is collection = registration
+
+db.registration.insert(
+    {
+        "Name":"Lokin Crook",
+        "Email":"lcrook1@students.chattahoocheetech.edu",
+        "Address":"Some Street Marietta Highway GA 30189",
+        "Phone":"(404)630-9931"
+    }
+)
+
+//db.registration.find()
+//gives the default you just provided.
+
+// to find just one by name
+
+
+db.registration.find (
+ {"Name": "Lokin Crook"}
+ )
